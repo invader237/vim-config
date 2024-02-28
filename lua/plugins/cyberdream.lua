@@ -1,17 +1,10 @@
-return {
-    "scottmckendry/cyberdream.nvim",
-    lazy = false,
-    priority = 999,
-    config = function()
-        require("cyberdream").setup({
-            -- Recommended - see "Configuring" below for more config options
-            transparent = true,
-            italic_comments = true,
-            hide_fillchars = true,
-            borderless_telescope = false,
-        })
-        vim.cmd("colorscheme cyberdream") -- set the colorscheme
-    end,
-    }
+return { 
+  "nyoom-engineering/oxocarbon.nvim",
+  config = function()
+    vim.opt.background = "dark" -- set this to dark or light
+    vim.cmd("colorscheme oxocarbon")
+  end,
+}
+
 
 
