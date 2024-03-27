@@ -2,6 +2,21 @@ return {
   {
     "williamboman/mason.nvim",
     lazy = false,
+        opt = {
+            ensure_installed = {
+                "typescript-language-server",
+                "js-debug-adapter",
+                "ts-standard",
+                "lua-language-server",
+                "stylua",
+                "emmet-language-server ",
+                "html-lsp ",
+                "css-lsp ",
+                "stylua",
+                "clangd",
+            }
+        },
+
     config = function()
       require("mason").setup()
     end,
@@ -24,9 +39,6 @@ return {
         capabilities = capabilities
       })
       lspconfig.html.setup({
-        capabilities = capabilities
-      })
-      lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
 
