@@ -5,10 +5,8 @@ return {
         opt = {
             ensure_installed = {
                 "typescript-language-server",
-                "js-debug-adapter",
                 "ts-standard",
                 "lua-language-server",
-                "stylua",
                 "emmet-language-server ",
                 "html-lsp ",
                 "css-lsp ",
