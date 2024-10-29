@@ -1,4 +1,4 @@
-local servers = {
+local masonplug = {
 	"autopep8",
 	"bash-language-server",
 	"clangd",
@@ -20,12 +20,24 @@ local servers = {
 	"yaml-language-server",
 }
 
+local servers = {
+    "bashls",
+    "clangd",
+    "cssls",
+    "html",
+    "jsonls",
+    "pyright",
+    "ts_ls",
+    "yamlls",
+    "phpactor",
+}
+
 return {
 	{
 		"williamboman/mason.nvim",
 		lazy = false,
 		opt = {
-			ensure_installed = servers,
+			ensure_installed = masonplug,
 		},
 
 		config = function()
