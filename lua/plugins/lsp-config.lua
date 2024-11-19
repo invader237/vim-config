@@ -6,7 +6,6 @@ local masonplug = {
 	"cpptools",
 	"css-lsp",
 	"html-lsp",
-	"js-debug-adapters",
 	"json-lsp",
 	"lua-language-server",
 	"phpactor",
