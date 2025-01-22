@@ -8,9 +8,6 @@ vim.cmd("set clipboard=unnamedplus")
 -- vim.cmd("set showtabline=2")
 vim.cmd("syntax enable")
 
-
-vim.wo.relativenumber = true
-
 vim.wo.relativenumber = true
 vim.g.mapleader = " "
 
