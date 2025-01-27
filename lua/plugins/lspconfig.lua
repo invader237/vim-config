@@ -5,6 +5,7 @@ local servers = {
     "lua_ls",
     "phpactor",
     "ts_ls",
+    "jdtls",
     --    "asm_lsp", -- error pour l'instant
 }
 
